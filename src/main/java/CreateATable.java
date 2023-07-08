@@ -46,7 +46,7 @@ import java.sql.Statement;
  *
  *
  * Additional reference material:
- *      - https://www.w3schools.com/sql/sql_create_table.asp
+ *      -   https://www.w3schools.com/sql/sql_create_table.asp
  *
  */
 public class CreateATable {
@@ -67,6 +67,7 @@ public class CreateATable {
      */
     public void problem1(){
 //        write your SQL logic in a single line in the problem1.sql file.
+        
         String sql = FileUtil.parseSQLFile("problem1.sql");
 
         try {
